@@ -1,4 +1,4 @@
-__mul = function(self, tab)
+local __mul = function(self, tab)
 	if type(tab) == 'table' then
 		local diff = {}
 		local map1, map2 = {}, {}
@@ -20,7 +20,7 @@ __mul = function(self, tab)
 			local m2 = map2[i]
 			for i0=1, v do
 				if map2[i] > 0 then
-					map2[i] = map2[i] - 1
+						map2[i] = map2[i] - 1
 					map1[i] = map1[i] - 1
 				else
 					diff[#diff + 1] = {value = i, count = -i0}
@@ -33,6 +33,6 @@ __mul = function(self, tab)
 		end
 		return setmeta(diff)
 	else
-		error('bad argument #2 (table expected, got ' .. type(tab) .. ')')
+		error('bad argument #2 (table expected, got ' .. type(tab) .. ')', 2)
 	end
 end

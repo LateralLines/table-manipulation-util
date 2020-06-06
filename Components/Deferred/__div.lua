@@ -8,6 +8,6 @@ __div = function(self, tab)
 		end
 		return setmeta(diff)
 	else
-		error('bad argument #2 (table expected, got ' .. type(tab) .. ')')
+		error('bad argument #2 (table expected, got ' .. type(tab) .. ')', 2)
 	end
 end
