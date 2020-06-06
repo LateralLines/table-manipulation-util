@@ -4,7 +4,7 @@
 Changelog: https://github.com/LateralLines/table-manipulation-util/blob/master/Changelog.md
 
 ### Disclamer
-The current version (0.1) is in no way well optimized or ready for professional work of any sort. This version is not stable and should only be used for preliminary or experimental development. A stable pre-alpha/alpha version will be distrubuted within a week. For now, use at your own discretion.
+The current version (0.2) is in no way well optimized or ready for professional work of any sort. This version is not stable and should only be used for preliminary or experimental development. A stable pre-alpha/alpha version will be distrubuted within a week. For now, use at your own discretion.
 
 # Installation
 
